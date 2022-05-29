@@ -1,5 +1,6 @@
 import { projectsData } from "@data/projects";
 import { ProjectType } from "@shared-types/project.types";
+import ProjectLayout from "components/layouts/ProjectLayout";
 import { GetServerSideProps } from "next";
 import React from "react";
 
@@ -8,7 +9,11 @@ interface ProjectProps {
 }
 
 const Project: React.FC<ProjectProps> = ({ project }) => {
-  return <div>{project.title}</div>;
+  return (
+    <ProjectLayout>
+      {project.title}
+    </ProjectLayout>
+  );
 };
 
 export const getServerSideProps: GetServerSideProps = async (context) => {

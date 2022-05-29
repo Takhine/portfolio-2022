@@ -21,7 +21,7 @@
 
 # lock files
 /package-lock.json
-/yarn.lock
+yarn.lock
 
 # debug
 npm-debug.log*
