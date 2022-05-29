@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es2016",
+      "jsx": "react",
+      "baseUrl": "./",
+      "paths": {
+        "@images/*": ["public/images/*"],
+        "@atoms/*": ["components/atoms/*"],
+        "@molecules/*": ["components/molecules/*"],
+        "@layouts/*": ["components/layouts/*"],
+        "@styles/*": ["styles/*"],
+        "@utils/*": ["shared/utils/*"],
+        "@hooks/*": ["shared/hooks/*"],
+        "@stores/*": ["shared/stores/*"],
+        "@constants/*": ["shared/constants/*"],
+        "@data/*": ["shared/data/*"],
+        "@shared-types/*": ["shared/types/*"]
+      }
+    },
+    "exclude": ["node_modules", "dist", "storybook-static"]
+  }
+  

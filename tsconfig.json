@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2016",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -13,8 +13,22 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "baseUrl": "./",
+    "paths": {
+      "@images/*": ["public/images/*"],
+      "@atoms/*": ["src/components/atoms/*"],
+      "@molecules/*": ["src/components/molecules/*"],
+      "@layouts/*": ["src/components/layouts/*"],
+      "@styles/*": ["styles/*"],
+      "@utils/*": ["shared/utils/*"],
+      "@hooks/*": ["shared/hooks/*"],
+      "@stores/*": ["shared/stores/*"],
+      "@constants/*": ["shared/constants/*"],
+      "@data/*": ["shared/data/*"],
+      "@shared-types/*": ["shared/types/*"]
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", ".next", "dist"]
 }
