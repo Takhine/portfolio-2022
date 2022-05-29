@@ -30,10 +30,12 @@ module.exports = {
     },
     colors: {
       blue: colors.blue,
+      yellow: colors.yellow,
       pink: colors.pink,
       white: colors.white,
       gray: colors.gray,
-      teal: colors.teal
+      teal: colors.teal,
+      slate01: '#E0E2E6'
     }
   },
   plugins: [],
