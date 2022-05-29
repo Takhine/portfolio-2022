@@ -35,7 +35,8 @@ module.exports = {
       white: colors.white,
       gray: colors.gray,
       teal: colors.teal,
-      slate01: '#E0E2E6'
+      slate01: '#E0E2E6',
+      graphite01: '#9A9A9A'
     }
   },
   plugins: [],

@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Aniketh Nair" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="mt-8 md:mt-12 lg:mt-24 grid gap-9 lg:gap-24 grid-rows-3	grid-cols-3">
+      <main className="mt-8 md:mt-12 lg:mt-20 grid gap-9 lg:gap-x-24 lg:gap-y-6 grid-rows-3	grid-cols-3">
         <MainDetails />
         <WelcomeHeader />
         <FeaturedProject />

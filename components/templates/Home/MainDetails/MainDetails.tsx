@@ -10,7 +10,7 @@ interface MainDetailsProps {}
 const MainDetails: React.FC<MainDetailsProps> = () => {
   return (
     <div className="col-span-3 row-span-3 lg:row-end-3 lg:col-span-1 order-2 lg:order-1">
-      <GradientCard>
+      <GradientCard className="h-full">
         <div className="flex justify-between">
         <ProfilePicture />
         <ProfileHeading />
