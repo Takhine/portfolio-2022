@@ -48,6 +48,8 @@ module.exports = {
       blue: colors.blue,
       black: colors.black,
       rose: colors.rose,
+      green: colors.green,
+      purple: colors.purple,
       yellow: colors.yellow,
       pink: colors.pink,
       white: colors.white,
