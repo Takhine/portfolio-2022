@@ -1,0 +1,1 @@
+export const GRAPHITE_01 = '#9A9A9A';
