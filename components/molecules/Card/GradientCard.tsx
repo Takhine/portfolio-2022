@@ -8,9 +8,15 @@ interface GradientCardProps {
 const GradientCard: React.FC<GradientCardProps> = ({ children, className }) => {
   return (
     <div
-      className={`p-1 shadow-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-lg ${className}`}
+      className={`p-0.5 shadow-lg gradient-card  rounded-md ${className}`}
+      style={{
+        background: `linear-gradient(90deg, #3d5afe 0%, #84ffff 100%)`,
+        backgroundSize: "300% 300%",
+      }}
     >
-      <div className="block p-6 bg-white sm:p-7 rounded-md h-full">{children}</div>
+      <div className="block p-6 bg-gray-50 sm:p-7 rounded h-full">
+        {children}
+      </div>
     </div>
   );
 };
