@@ -1,4 +1,5 @@
 import { routesData } from "@data/routes";
+import Button from "components/atoms/Button/Button";
 import CustomSwitch from "components/molecules/Switch/Switch";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -15,7 +16,7 @@ const MainNavbar: React.FC<MainNavbarProps> = () => {
           {routesData.map((link) => (
             <Link key={link.id} href={link.route}>
               <a
-                className={`mr-4 xl:mr-40 ${
+                className={`mr-4 xl:mr-24 ${
                   router.asPath === link.route ? "text-gray-500" : ""
                 }`}
               >
@@ -24,7 +25,10 @@ const MainNavbar: React.FC<MainNavbarProps> = () => {
             </Link>
           ))}
         </div>
+        <div className="flex items-center">
+          <Button className="mr-10">Connect</Button>
         <CustomSwitch />
+        </div>
       </div>
     </nav>
   );

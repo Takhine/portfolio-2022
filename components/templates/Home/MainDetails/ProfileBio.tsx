@@ -5,11 +5,16 @@ interface ProfileBioProps {}
 
 const ProfileBio: React.FC<ProfileBioProps> = () => {
   return (
-    <Paragraph className="text-graphite01 text-sm lg:ml-7">
-      Learn Cricket with Sachin Tendulkar Learn Cricket with Sachin
-      TendulkarLearn Cricket with Sachin TendulkarLearn Cricket with Sachin
-      Tendulkar
+    <div className="lg:ml-7">
+    <Paragraph className="text-graphite01 text-sm mb-2">
+      As a Software Engineer, I specialize in web development technologies and
+      have experience in building and maintaining CMS &amp; LMS platforms.
     </Paragraph>
+    <Paragraph className="text-graphite01 text-sm">
+      At <b>Graphy</b>, I am focused on building website tools for creators that signup on
+      our Live CBC Platform.
+    </Paragraph>
+    </div>
   );
 };
 
