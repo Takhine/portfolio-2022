@@ -18,7 +18,7 @@ module.exports = {
         "Apple Color Emoji",
         "Segoe UI Emoji",
       ],
-    },
+    },   
     extend: {
       fontSize: {
         xxs: '.625rem',
@@ -28,7 +28,7 @@ module.exports = {
       center: true,
       padding: {
         DEFAULT: "0.5rem",
-        xxs: "0.2rem",
+        xxs: "0.5rem",
         xs: "0.5rem",
         sm: "1rem",
         md: "2rem",
@@ -37,7 +37,8 @@ module.exports = {
       },
     },
     screens: {
-      xs: "320px",
+      xxs: "360px",
+      xs: "480px",
       sm: "640px",
       md: "768px",
       lg: "1024px",
@@ -52,14 +53,20 @@ module.exports = {
       purple: colors.purple,
       yellow: colors.yellow,
       pink: colors.pink,
-      white: colors.white,
+      white: "#fafafa",
       gray: colors.gray,
       teal: colors.teal,
+      sky: colors.sky,
+      indigo: colors.indigo,
       slate: "#484848",
+      gradient1: "#3d5afe",
+      gradient2: "#84ffff",
+      portfolioBlack: "#262635",
+      eventgrabBlack: "#101010",
       graphite01: "#9A9A9A",
       graphite02: "#E0E2E6",
       graphite03: "#E8EAEC"
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };

@@ -1,12 +1,12 @@
 export const routesData = [
     {
         id: 'home',
-        title: 'Home',
+        title: 'nair',
         route: '/'
     },
     {
         id: 'work',
-        title: 'Work',
+        title: 'work',
         route: '/work'
     }
 ]

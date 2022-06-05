@@ -7,7 +7,7 @@ interface BadgeProps {
 
 const Badge: React.FC<BadgeProps> = ({ children, className }) => {
   return (
-    <strong className={`bg-graphite02 border-graphite01 text-slate border tracking-wide px-2 py-0.5 rounded-full text-xxs font-medium ${className}`}>
+    <strong className={`bg-graphite02 border-graphite01 border tracking-wide px-2 py-0.5 rounded-full text-xxs font-medium ${className}`}>
       {children}
     </strong>
   );

@@ -1,11 +1,20 @@
-import React from 'react';
+import ProjectNavbar from "components/organisms/Navbars/ProjectNavbar";
+import React from "react";
 
-interface ProjectLayoutProps {}
-
-const ProjectLayout: React.FC<ProjectLayoutProps> = () => {
-return <div>ProjectLayout</div>
+interface ProjectLayoutProps {
+  title: string;
+  children: React.ReactNode;
 }
 
-ProjectLayout.displayName = 'ProjectLayout';
+const ProjectLayout: React.FC<ProjectLayoutProps> = ({ title, children }) => {
+  return (
+    <div>
+      <ProjectNavbar title={title} />
+      <div className="container">{children}</div>
+    </div>
+  );
+};
+
+ProjectLayout.displayName = "ProjectLayout";
 
 export default ProjectLayout;

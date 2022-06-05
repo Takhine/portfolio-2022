@@ -8,8 +8,8 @@ interface ProfileHeadingProps {}
 const ProfileHeading: React.FC<ProfileHeadingProps> = () => {
   return (
     <div className="ml-6 w-full">
-      <H4 className="mb-2">Aniketh Nair</H4>
-      <Paragraph className="text-xs">Senior Software Engineer @ <b>Graphy</b></Paragraph>
+      <H4 className="mb-2 !text-slate dark:!text-white">Aniketh Nair</H4>
+      <Paragraph className="text-xs text-graphite01 dark:text-graphite03">Senior Software Engineer @ <b>Graphy</b></Paragraph>
       <ProfileTags />
     </div>
   );
