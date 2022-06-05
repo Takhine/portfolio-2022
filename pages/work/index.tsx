@@ -18,7 +18,7 @@ const Work: React.FC<WorkProps> = () => {
         <meta name="description" content="Projects by Aniketh Nair" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="pt-8 md:pt-12 lg:pt-20 bg-portfolioBlack">
+      <main className="pt-8 md:pt-12 animated-signal lg:pt-20 bg-portfolioBlack">
         <div className="container">
           <div className="flex justify-between items-center">
             <H1 className="!text-6xl !text-graphite03 mb-7">My work so far.</H1>
