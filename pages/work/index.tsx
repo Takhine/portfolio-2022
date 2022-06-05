@@ -14,7 +14,7 @@ const Work: React.FC<WorkProps> = () => {
   return (
     <MainLayout hasContainer={false}>
       <Head>
-        <title>My work so far</title>
+        <title>Aniketh Nair | My work so far</title>
         <meta name="description" content="Projects by Aniketh Nair" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

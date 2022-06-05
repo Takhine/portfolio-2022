@@ -12,6 +12,7 @@ const ProjectsGrid: React.FC<ProjectsGridProps> = () => {
           <ProjectCard
             title={project.title}
             description={project.description}
+            footnote={project.footnote}
             projectLink={project.projectLink}
             thumbnail={project.thumbnail}
           />

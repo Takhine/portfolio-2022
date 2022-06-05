@@ -6,6 +6,7 @@ export const whatsonnetData = {
   technologies: ["React", "Strapi", "GraphQL", "SCSS", "AntD"],
   website: "",
   source: "",
+  footnote: "React · Strapi · GraphQL · Scss",
   projectLink: "/work/whatsonnet",
   thumbnail: "/images/whatsonnet.png",
   previews: [{ type: "image", link: "/images/whatsonnet.png" }],

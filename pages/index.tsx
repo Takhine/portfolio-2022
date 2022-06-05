@@ -9,8 +9,8 @@ const Home: NextPage = () => {
   return (
     <MainLayout hasContainer={false}>
       <Head>
-        <title>Portfolio 2022</title>
-        <meta name="description" content="Aniketh Nair" />
+        <title>Aniketh Nair | Portfolio</title>
+        <meta name="description" content="Welcome to my portfolio (2022)" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="absolute dark:bg-gradient-to-b dark:from-portfolioBlack dark:to-black bg-gradient-to-r from-indigo-500 to-sky-400 top-0 h-screen w-full"

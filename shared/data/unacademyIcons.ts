@@ -5,6 +5,7 @@ export const unacademyIconsData = {
   technologies: ['NextJS', 'Emotion css', 'VideoJS'],
   website: '',
   source: '',
+  footnote: "NextJs · Typescript · Emotion Css",
   projectLink: "/work/unacademy-icons",
   thumbnail: "/images/unacademyIcons.png",
   previews: [{type: 'image', link: '/images/unacademyIcons.png'}],
